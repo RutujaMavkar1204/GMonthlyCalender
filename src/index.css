@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@theme {
+    --color-midnight: #121063;
+    --color-tahiti: #3ab7bf;
+    --color-lightblue:#f0f0f0
+  }
+  .event-box {
+    transition: width 0.3s ease;
+  }
+  
+  .event-box.dragging {
+    width: 200px; /* or any size you want */
+    opacity: 0.7;
+  }
+  
+  
